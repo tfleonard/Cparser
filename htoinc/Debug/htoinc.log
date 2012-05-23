@@ -1,0 +1,51 @@
+﻿Build started 5/22/2012 3:52:23 PM.
+Project "C:\MyCppProjects\htoinc\htoinc\htoinc.vcxproj" on node 2 (rebuild target(s)).
+InitializeBuildStatus:
+  Creating "Debug\htoinc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+PreBuildEvent:
+  Description: Building cgrammer.y and cgrammer.l
+  "C:/Program Files/Mortice Kern Systems/Lex and Yacc\mksnt\yacc.exe" -o "C:\MyCppProjects\htoinc\htoinc\ytab.cpp" -LC  -D "C:\MyCppProjects\htoinc\htoinc\ytab.hpp" "cgrammer.y"
+  "C:/Program Files/Mortice Kern Systems/Lex and Yacc\mksnt\lex.exe" -o "C:\MyCppProjects\htoinc\htoinc\lex_yy.cpp" -LC -D "C:\MyCppProjects\htoinc\htoinc\lex_yy.hpp" "cgrammer.l"  
+  :VCEnd
+  Conflicts:
+  State 397 token "ELSE"
+   shift  selection_statement:         IF '(' expression ')' statement.ELSE statement
+   reduce selection_statement:         IF '(' expression ')' statement.
+  1 shift/reduce conflicts
+ClCompile:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt errorhandler.cpp htoinc.cpp myParser.cpp myScanner.cpp symboltable.cpp /wd4430  /wd4996 
+  symboltable.cpp
+  myScanner.cpp
+  myParser.cpp
+  htoinc.cpp
+  errorhandler.cpp
+  Generating Code...
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\htoinc.exe.embed.manifest.res" Debug\htoinc_manifest.rc 
+Link:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MyCppProjects\htoinc\Debug\htoinc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\htoinc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\MyCppProjects\htoinc\Debug\htoinc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MyCppProjects\htoinc\Debug\htoinc.lib" /MACHINE:X86 Debug\htoinc.exe.embed.manifest.res
+  Debug\errorhandler.obj
+  Debug\htoinc.obj
+  Debug\myParser.obj
+  Debug\myScanner.obj
+  Debug\symboltable.obj
+Manifest:
+  Deleting file "Debug\htoinc.exe.embed.manifest".
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\htoinc.exe.embed.manifest" /manifest Debug\htoinc.exe.intermediate.manifest
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\htoinc.exe.embed.manifest.res" Debug\htoinc_manifest.rc 
+LinkEmbedManifest:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MyCppProjects\htoinc\Debug\htoinc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\htoinc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\MyCppProjects\htoinc\Debug\htoinc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MyCppProjects\htoinc\Debug\htoinc.lib" /MACHINE:X86 Debug\htoinc.exe.embed.manifest.res
+  Debug\errorhandler.obj
+  Debug\htoinc.obj
+  Debug\myParser.obj
+  Debug\myScanner.obj
+  Debug\symboltable.obj
+  htoinc.vcxproj -> C:\MyCppProjects\htoinc\Debug\htoinc.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\htoinc.unsuccessfulbuild".
+  Touching "Debug\htoinc.lastbuildstate".
+Done Building Project "C:\MyCppProjects\htoinc\htoinc\htoinc.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.35

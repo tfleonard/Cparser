@@ -1,0 +1,87 @@
+ Productions recoreded by SymbolTable class:
+Token: TYPEDEF           Lexeme: typedef
+ storage_class_specifier -> TYPEDEF
+Token: LONG              Lexeme: long
+ type_specifier -> LONG
+Token: INT               Lexeme: int
+ type_specifier -> INT
+Token: IDENTIFIER        Lexeme: ptrdiff_t
+ declaration_specifiers -> type_specifier
+ declaration_specifiers -> type_specifier declaration_specifiers
+ declaration_specifiers -> storage_class_specifier declaration_specifiers
+ direct_declarator -> IDENTIFIER
+Token: ;  Lexeme: ;
+ declarator -> direct_declarator
+ init_declarator -> declarator
+ init_declarator_list -> init_declarator
+ declaration -> declaration_specifiers init_declarator_list ';'
+ external_declaration -> declaration
+ translation_unit -> external_declaration
+Token: TYPEDEF           Lexeme: typedef
+ storage_class_specifier -> TYPEDEF
+Token: LONG              Lexeme: long
+ type_specifier -> LONG
+Token: UNSIGNED          Lexeme: unsigned
+ type_specifier -> UNSIGNED
+Token: INT               Lexeme: int
+ type_specifier -> INT
+Token: IDENTIFIER        Lexeme: size_t
+ declaration_specifiers -> type_specifier
+ declaration_specifiers -> type_specifier declaration_specifiers
+ declaration_specifiers -> type_specifier declaration_specifiers
+ declaration_specifiers -> storage_class_specifier declaration_specifiers
+ direct_declarator -> IDENTIFIER
+Token: ;  Lexeme: ;
+ declarator -> direct_declarator
+ init_declarator -> declarator
+ init_declarator_list -> init_declarator
+ declaration -> declaration_specifiers init_declarator_list ';'
+ external_declaration -> declaration
+ translation_unit -> translation_unit external_declaration
+Token: TYPEDEF           Lexeme: typedef
+ storage_class_specifier -> TYPEDEF
+Token: INT               Lexeme: int
+ type_specifier -> INT
+Token: IDENTIFIER        Lexeme: wchar_t
+ declaration_specifiers -> type_specifier
+ declaration_specifiers -> storage_class_specifier declaration_specifiers
+ direct_declarator -> IDENTIFIER
+Token: ;  Lexeme: ;
+ declarator -> direct_declarator
+ init_declarator -> declarator
+ init_declarator_list -> init_declarator
+ declaration -> declaration_specifiers init_declarator_list ';'
+ external_declaration -> declaration
+ translation_unit -> translation_unit external_declaration
+Token: TYPEDEF           Lexeme: typedef
+ storage_class_specifier -> TYPEDEF
+Token: LONG              Lexeme: long
+ type_specifier -> LONG
+Token: IDENTIFIER        Lexeme: _off_t
+ declaration_specifiers -> type_specifier
+ declaration_specifiers -> storage_class_specifier declaration_specifiers
+ direct_declarator -> IDENTIFIER
+Token: ;  Lexeme: ;
+ declarator -> direct_declarator
+ init_declarator -> declarator
+ init_declarator_list -> init_declarator
+ declaration -> declaration_specifiers init_declarator_list ';'
+ external_declaration -> declaration
+ translation_unit -> translation_unit external_declaration
+Token: IDENTIFIER        Lexeme: __extension__
+
+
+ Symbol Table:
+
+Token     Lexeme                            Scope
+; ;
+IDENTIFIER       __extension__
+IDENTIFIER       _off_t
+INT              int
+LONG             long
+IDENTIFIER       ptrdiff_t
+IDENTIFIER       size_t
+TYPEDEF          typedef
+UNSIGNED         unsigned
+IDENTIFIER       wchar_t
+Press any key to continue . . .
