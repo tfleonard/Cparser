@@ -1,3 +1,7 @@
+//
+//
+// Copyright 2012 tfleonard  dsp_ee@hotmail.com  all rights reserved.
+//
 // htoinc.cpp : Defines the entry point for the console application.
 //
 
