@@ -1,4 +1,4 @@
-/* c:/program files/mortice kern systems/lex and yacc\mksnt\yacc -o C:\MyCppProjects\htoinc\htoinc\ytab.cpp -LC -D C:\MyCppProjects\htoinc\htoinc\ytab.hpp cgrammer.y */
+/* c:/program files/mortice kern systems/lex and yacc\mksnt\yacc -o C:\tmp\test\htoinc\ytab.cpp -LC -D C:\tmp\test\htoinc\ytab.hpp cgrammer.y */
 #line 1 "cgrammer.y"
 
 

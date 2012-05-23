@@ -1,4 +1,4 @@
-/* c:/program files/mortice kern systems/lex and yacc\mksnt\lex -o C:\MyCppProjects\htoinc\htoinc\lex_yy.cpp -LC -D C:\MyCppProjects\htoinc\htoinc\lex_yy.hpp cgrammer.l */
+/* c:/program files/mortice kern systems/lex and yacc\mksnt\lex -o C:\tmp\test\htoinc\lex_yy.cpp -LC -D C:\tmp\test\htoinc\lex_yy.hpp cgrammer.l */
 #define INITIAL 0
 const yy_endst = 372;
 const yy_nxtmax = 2259;
